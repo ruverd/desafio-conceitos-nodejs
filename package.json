@@ -1,0 +1,29 @@
+{
+  "name": "desafio-conceitos-nodejs",
+  "version": "1.0.0",
+  "author": "Ruver Dornelas",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sucrase": "^3.13.0",
+    "uuidv4": "^6.0.7"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^25.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
